@@ -1,11 +1,47 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Datos/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Entidades": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Datos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Datos.dll": {}
+        }
+      },
+      "Entidades/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Entidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entidades.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Datos/1.0.0": {
+      "type": "project",
+      "path": "../Datos/Datos.csproj",
+      "msbuildProject": "../Datos/Datos.csproj"
+    },
+    "Entidades/1.0.0": {
+      "type": "project",
+      "path": "../Entidades/Entidades.csproj",
+      "msbuildProject": "../Entidades/Entidades.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Datos >= 1.0.0",
+      "Entidades >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\joaco\\.nuget\\packages\\": {}
@@ -33,7 +69,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\joaco\\OneDrive\\Escritorio\\VS2023\\Proyectonuevoiefi\\Datos\\Datos.csproj": {
+              "projectPath": "C:\\Users\\joaco\\OneDrive\\Escritorio\\VS2023\\Proyectonuevoiefi\\Datos\\Datos.csproj"
+            },
+            "C:\\Users\\joaco\\OneDrive\\Escritorio\\VS2023\\Proyectonuevoiefi\\Entidades\\Entidades.csproj": {
+              "projectPath": "C:\\Users\\joaco\\OneDrive\\Escritorio\\VS2023\\Proyectonuevoiefi\\Entidades\\Entidades.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,6 +1,5 @@
 ﻿using Entidades;
-using Entidades.Materia;
-using Materia;
+using Datos;
 using System.Data;
 
 namespace Negocio
@@ -19,19 +18,19 @@ namespace Negocio
             return objDatosMaterias.listadoMateria(categoria);
         }
 
-        public List<Materia> ObtenerMateria()
-        {
-            return objDatosMaterias.ObtenerMateria();
-        }
+        //public List<Materia> ObtenerMateria()
+        //{
+        //    return objDatosMaterias.ObtenerMateria();
+        //}
 
-        public DataSet listarMateriaBuscar(string cual)
-        {
-            return objDatosMaterias.listarMateriaBuscar(cual);
-        }
+        //public DataSet listarMateriaBuscar(string cual)
+        //{
+        //    return objDatosMaterias.listarMateriaBuscar(cual);
+        //}
 
-        public DataSet ListarMateriaEliminar(string id)
+        public DataSet ListaMateriaEliminar(string id)
         {
-            return objDatosMaterias.listarMateriaEliminar(id);
+            return objDatosMaterias.ListaMateriaEliminar(id);
         }
 
     }

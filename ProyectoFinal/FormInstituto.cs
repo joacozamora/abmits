@@ -34,10 +34,10 @@ namespace ProyectoFinal
 
         private void btn_CargarAlumno_Click(object sender, EventArgs e)
         {
-            int nGrabados = -1;
+            /*int nGrabados = -1;
             //string Analitico = Check_Analitico();
             DateTime FechaNacimiento = FechaNacAlumno.Value;
-            string fecha_nac = Fecha_Nacimiento(FechaNacimiento);
+            //string fecha_nac = Fecha_Nacimiento(FechaNacimiento);
 
             NuevoAlumno = new Alumno(int.Parse(txb_dni.Text), txb_NomApAlumno.Text, fecha_nac, txb_email.Text, chbx_analitico.Enabled);
 
@@ -55,7 +55,7 @@ namespace ProyectoFinal
                 //LlenarDGV();
             }
 
-            MessageBox.Show("Producto Instanciado");
+            MessageBox.Show("Producto Instanciado");*/
 
         }
 

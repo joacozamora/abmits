@@ -10,40 +10,40 @@ namespace Entidades
     public class Materia
     {
         #region Atributos
-        private int codigo;
-        private string nombre;
-        private int año_cursado;
-        private string dia_cursado;
-        private string nombre_carrera;
+        private int Codigo;
+        private string Nombre;
+        private int Año_Cursado;
+        private string Dia_Cursado;
+        private string Nombre_Carrera;
         #endregion
 
         #region propiedades
-        public int Id
+        public int id
         {
-            get { return codigo; }
-            set { codigo = value; }
+            get { return Codigo; }
+            set { Codigo = value; }
         }
 
-        public string Nombre
+        public string nombre
         {
-            get { return nombre; }
-            set { nombre = value; }
+            get { return Nombre; }
+            set { Nombre = value; }
         }
-        public int Año_Cursado
+        public int año_cursado
         {
-            get { return año_cursado; }
-            set { año_cursado = value; }
+            get { return Año_Cursado; }
+            set { Año_Cursado = value; }
         }
-        public string Dia_cursado
+        public string dia_cursado
         {
-            get { return dia_cursado; }
-            set { dia_cursado = value; }
+            get { return Dia_Cursado; }
+            set { Dia_Cursado = value; }
         }
 
-        public string Nombre_carrera
+        public string nombre_carrera
         {
-            get { return nombre_carrera; }
-            set { nombre_carrera = value; }
+            get { return Nombre_Carrera; }
+            set { Nombre_Carrera = value; }
         }
         #endregion
 
@@ -51,13 +51,13 @@ namespace Entidades
         #region Constructores
         public Materia()
         { }
-        public Materia(int Codigo, string Nombre, int Año, string Dia_Clases, string Carrera)
+        public Materia(int cod, string nom, int año, string dia_clases, string carrera)
         {
-            codigo = Codigo;
-            nombre = Nombre;
-            año_cursado = Año;
-            dia_cursado = Dia_Clases;
-            nombre_carrera = Carrera;
+            Codigo = cod;
+            Nombre = nom;
+            Año_Cursado = año;
+            Dia_Cursado = dia_clases;
+            Nombre_Carrera = carrera;
 
         }
         #endregion

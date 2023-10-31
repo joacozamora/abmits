@@ -33,10 +33,22 @@ namespace Entidades
             set { Fecha_Nac = value;}
         }
 
-        #endregion
+		public string email
+		{
+			get { return Email; }
+			set { Email = value; }
+		}
 
-        #region Constructores
-        public Alumno()
+		public bool analitico
+		{
+			get { return Analitico; }
+			set { Analitico = value; }
+		}
+
+		#endregion
+
+		#region Constructores
+		public Alumno()
         { }
         public Alumno(int Dni, string nomApellido, DateTime fecha_Nac, string email, bool analitico)
         {

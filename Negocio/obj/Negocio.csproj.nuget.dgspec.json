@@ -4,6 +4,40 @@
     "C:\\Users\\joaco\\OneDrive\\Escritorio\\VS2023\\Proyectonuevoiefi\\Negocio\\Negocio.csproj": {}
   },
   "projects": {
+    "C:\\Users\\joaco\\OneDrive\\Escritorio\\VS2023\\Proyectonuevoiefi\\Datos\\Datos.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joaco\\OneDrive\\Escritorio\\VS2023\\Proyectonuevoiefi\\Datos\\Datos.csproj",
+        "projectName": "Datos",
+        "projectPath": "C:\\Users\\joaco\\OneDrive\\Escritorio\\VS2023\\Proyectonuevoiefi\\Datos\\Datos.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\joaco\\OneDrive\\Escritorio\\VS2023\\Proyectonuevoiefi\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\joaco\\OneDrive\\Escritorio\\VS2023\\Proyectonuevoiefi\\Entidades\\Entidades.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\joaco\\OneDrive\\Escritorio\\VS2023\\Proyectonuevoiefi\\Entidades\\Entidades.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joaco\\OneDrive\\Escritorio\\VS2023\\Proyectonuevoiefi\\Entidades\\Entidades.csproj",
+        "projectName": "Entidades",
+        "projectPath": "C:\\Users\\joaco\\OneDrive\\Escritorio\\VS2023\\Proyectonuevoiefi\\Entidades\\Entidades.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\joaco\\OneDrive\\Escritorio\\VS2023\\Proyectonuevoiefi\\Negocio\\Negocio.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +61,14 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\joaco\\OneDrive\\Escritorio\\VS2023\\Proyectonuevoiefi\\Datos\\Datos.csproj": {
+                "projectPath": "C:\\Users\\joaco\\OneDrive\\Escritorio\\VS2023\\Proyectonuevoiefi\\Datos\\Datos.csproj"
+              },
+              "C:\\Users\\joaco\\OneDrive\\Escritorio\\VS2023\\Proyectonuevoiefi\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\joaco\\OneDrive\\Escritorio\\VS2023\\Proyectonuevoiefi\\Entidades\\Entidades.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

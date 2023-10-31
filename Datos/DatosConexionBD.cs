@@ -11,9 +11,11 @@ namespace Datos
     public class DatosConexionBD
     {
 		protected SqlConnection conexion;
-		protected string cadenaConexion = @"Data Source = DESKTOP - 147O4T7\SQLEXPRESS;Initial Catalog=IEFI_programacion;Integrated Security=True";
+		protected string cadenaConexion = @"Data Source=LAPTOP-ET77U67F;Initial Catalog=IEFI_programacion;Integrated Security=True";
+		// JOACO = Data Source=LAPTOP-ET77U67F;Initial Catalog=IEFI_programacion;Integrated Security=True
 
-        public DatosConexionBD()
+		// LUCAS = Data Source = DESKTOP - 147O4T7\SQLEXPRESS;Initial Catalog=IEFI_programacion;Integrated Security=True
+		public DatosConexionBD()
 		{
 			conexion = new SqlConnection(cadenaConexion);
 		}
@@ -47,4 +49,4 @@ namespace Datos
 	}
 
 }
-}
+
